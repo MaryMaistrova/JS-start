@@ -34,3 +34,19 @@ way of commenting*/
 // let user = 'Іван',
 //   age = 25,
 //   message = 'Привіт';
+
+// ask User's name and return an answer
+let question = prompt('Enter your name: ')
+alert(`Hello ${question}!`)
+
+// User's age
+let userYear = Number(prompt('Enter your birthyear: '))
+const thisYear = 2024
+let age = thisYear - userYear
+alert(`Your age is ${age}!`)
+
+// square perimeter
+
+let side = Number(prompt("To find square's perimeter enter square's side: "))
+let perimeter = side * 4
+alert(`Square's perimeter equals ${perimeter}!`)
